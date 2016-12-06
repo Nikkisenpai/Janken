@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/totor">
+
+    <TextView
+        android:text="0"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/placarjogador"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="casual" />
+
+    <TextView
+        android:text="X"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="casual" />
+
+    <TextView
+        android:text="0"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/placarcomputador"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="casual" />
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/guu"
+        android:layout_width="100dp"
+        android:layout_height="116dp"
+        android:id="@+id/jogador" />
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/guu"
+        android:layout_width="100dp"
+        android:layout_height="126dp"
+        android:id="@+id/computador" />
+
+    <Button
+        android:src="@drawable/guu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="チョキ"
+        android:id="@+id/tesoura"
+        android:onClick="tesoura"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="パー"
+        android:id="@+id/papel"
+        android:onClick="papel"
+        android:gravity="center" />
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="グー"
+        android:id="@+id/pedra"
+        android:onClick="pedra"
+        android:gravity="center" />
+
+</LinearLayout>
